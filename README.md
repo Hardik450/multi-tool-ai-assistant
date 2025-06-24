@@ -5,7 +5,6 @@
 
 This project is a **voice-driven AI assistant** built using [LangChain](https://www.langchain.com/), [Gemini (Google Generative AI)](https://ai.google.dev), and Python tools such as **speech recognition**, **text-to-speech**, and **Python REPL execution**. You can **speak your query**, and the agent will **understand, respond, and even speak back**.
 
----
 
 ## 🔥 Features
 
@@ -16,21 +15,15 @@ This project is a **voice-driven AI assistant** built using [LangChain](https://
 - 📅 **Custom Tools**: Includes a custom `get_time` tool to fetch the current date.
 - 🛠️ **Extensible**: Easily add more tools like web search, calculator, etc.
 
----
 
 ## 📸 Demo
-
-```
 
 User: "Write a Python program to sort a list."
 Assistant: *Writes code*, executes it, and reads out the sorted list.
 User: "Exit the chat"
 Assistant: Endes the chat
-````
 
 
-
----
 
 ## ⚙️ Tech Stack
 
@@ -43,7 +36,7 @@ Assistant: Endes the chat
 | `PythonREPL`           | Execute Python code dynamically       |
 | `dotenv`               | Load environment variables            |
 
----
+
 
 ## 📌 Future Improvements
 
@@ -52,19 +45,19 @@ Assistant: Endes the chat
 * 🧾 Log all interactions to a file.
 * 🎛 GUI version using Tkinter or PyQt.
 
----
+
 
 ## 🤝 Contributions
 
 PRs are welcome! If you have any ideas or fixes, feel free to open a pull request.
 
----
+
 
 ## 📄 License
 
 This project is open-sourced under the [MIT License](LICENSE).
 
----
+
 
 ## 🙌 Acknowledgements
 
